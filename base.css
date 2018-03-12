@@ -1,0 +1,40 @@
+table {
+  font-family: "Times New Roman", Times, serif;
+  border: 1px solid #FFFFFF;
+  width: 100vh;
+  height: 100vh;
+  text-align: center;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+table td,
+table th {
+  border: 0px solid #FFFFFF;
+  padding: 5px 2px;
+}
+
+table tbody td {
+  font-size: 20px;
+}
+
+table tr:nth-child(even) {
+  background: #DCEDC8;
+}
+
+table thead {
+  background: #8BC34A;
+  border-bottom: 5px solid #FFFFFF;
+}
+
+table thead th {
+  font-size: 22px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #FFFFFF;
+}
+
+table thead th:first-child {
+  border-left: none;
+}
